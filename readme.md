@@ -4,7 +4,7 @@ This buildpack downloads and installs Kibana into a Scalingo app image.
 
 ## Compatibility
 
-Tested against Kibana 5.5.0 - ES 5.5.0
+Tested against Kibana 6.8.6 - ES 6.8.6
 
 ## Usage
 
@@ -72,4 +72,4 @@ longer directly reachable from the Internet.
 
 ## Extra configuration
 
-* `DOWNLOAD_URL`: Source of the kibana archive, default is: `https://artifacts.elastic.co/downloads/kibana/kibana-5.5.0-linux-x86_64.tar.gz`
+* `DOWNLOAD_URL`: Source of the kibana archive, default is: `https://artifacts.elastic.co/downloads/kibana/kibana-6.8.6-linux-x86_64.tar.gz`
